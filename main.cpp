@@ -4,6 +4,7 @@
   Sends a simple 'received' message in a basetopic, with the subtopic set by the message.
   Does not parse protocol; if a device sends different codes for different states, this will use different subtopics.
   
+  Requires RC-Switch and PubSubClient libraries.  Tested on a NodeMCU v2.
 */
 
 #include <RCSwitch.h>
